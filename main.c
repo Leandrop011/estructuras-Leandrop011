@@ -15,7 +15,7 @@ int main (int argc, char *argv[]) {
         printf("\n5. Actualizar Estado de un Libro. ");
         printf("\n6. Eliminar Libro. ");
         printf("\n7. Salir. ");
-        printf("\nDigite que Opcion desea: ");scanf("%i", opc);
+        printf("\n Digite que Opcion desea: ");scanf("%i", opc);
     switch (opc)
     {
         case 1:

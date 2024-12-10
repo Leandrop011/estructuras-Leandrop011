@@ -4,7 +4,7 @@ int c;
 void registrarLibros(struct Libro libros[20]){
     printf("\n");
     printf("\n.:INGRESO DE LIBROS:.");
-    printf("\nIngrese Cuantos Libros desea Ingresar");scanf("%i", &c);
+    printf("\n Ingrese Cuantos Libros desea Ingresar");scanf("%i", &c);
 
     for (int i = 0; i < c; i++)
     {
