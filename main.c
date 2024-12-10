@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "funciones.h"
-
+#include <string.h>
 int main (int argc, char *argv[]) {
 
     struct Libro libros[20];
@@ -19,10 +19,11 @@ int main (int argc, char *argv[]) {
     switch (opc)
     {
         case 1:
-            registrarLibros(libros);
+            registrarLibro(libros, i);
+            i++;
             break;
         case 2:
-            mostrarLibros(libros);
+            mostrarLibros(libros, i);
             break;
         case 3:
             buscarLibroId(libros);
