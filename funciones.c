@@ -10,9 +10,9 @@ void registrarLibros(struct Libro libros[20]){
     {
         printf("\n");
         printf("\nLibro %i. ", i + 1);
-        
 
-        printf("\n");
+
+        printf("");
     }
     
 
